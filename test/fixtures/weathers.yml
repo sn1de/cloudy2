@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  chance_of_meatballs: 1
+  forecast: MyString
+
+two:
+  chance_of_meatballs: 1
+  forecast: MyString

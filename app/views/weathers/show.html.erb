@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Chance of meatballs:</strong>
+  <%= @weather.chance_of_meatballs %>
+</p>
+
+<p>
+  <strong>Forecast:</strong>
+  <%= @weather.forecast %>
+</p>
+
+<%= link_to 'Edit', edit_weather_path(@weather) %> |
+<%= link_to 'Back', weathers_path %>
