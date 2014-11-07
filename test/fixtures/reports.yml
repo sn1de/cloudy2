@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  weather: MyString
+  time: 2014-11-06 20:40:59
+  reporter: MyString
+
+two:
+  weather: MyString
+  time: 2014-11-06 20:40:59
+  reporter: MyString

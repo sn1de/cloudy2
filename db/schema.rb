@@ -11,10 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140219194540) do
+ActiveRecord::Schema.define(version: 20141107024059) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "reports", force: true do |t|
+    t.string   "weather"
+    t.datetime "time"
+    t.string   "reporter"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "weathers", force: true do |t|
     t.integer  "chance_of_meatballs"
